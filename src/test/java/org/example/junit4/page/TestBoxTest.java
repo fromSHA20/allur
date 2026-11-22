@@ -7,28 +7,28 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+//
+//public class TestBoxTest {
 
-public class TestBoxTest {
-
-    TestBoxPage testBoxPage;
-
-    @BeforeEach
-    public void beforEach() {
-        testBoxPage = new TestBoxPage(new ChromeDriver());
-    }
-
-    @Test
-    @DisplayName("Вывести данные 'loginUser'")
-    public void runWeb() {
-        testBoxPage.driver.get("https://demoqa.com/text-box");
-        testBoxPage.driver.manage().window().maximize();
-        testBoxPage.userNameLocator("Королев Валерий Шурец");
-        testBoxPage.emailLocator("koroleVSh");
-        testBoxPage.addresLocator("г.Мурманск, ул. Темирязева 123, п1 кв44");
-        testBoxPage.permanentAdrLocator("г.Мурманск, ул. Темирязева 123, п1 кв100");
-
-
-    }
+//    TestBoxPage testBoxPage;
+//
+//    @BeforeEach
+//    public void beforEach() {
+//        testBoxPage = new TestBoxPage(new ChromeDriver());
+//    }
+//
+//    @Test
+//    @DisplayName("Вывести данные 'loginUser'")
+//    public void runWeb() {
+//        testBoxPage.driver.get("https://demoqa.com/text-box");
+//        testBoxPage.driver.manage().window().maximize();
+//        testBoxPage.userNameLocator("Королев Валерий Шурец");
+//        testBoxPage.emailLocator("koroleVSh");
+//        testBoxPage.addresLocator("г.Мурманск, ул. Темирязева 123, п1 кв44");
+//        testBoxPage.permanentAdrLocator("г.Мурманск, ул. Темирязева 123, п1 кв100");
+//
+//
+//    }
 
 
-}
+//}
