@@ -28,6 +28,7 @@ public class TestBoxPage {
 
     public TestBoxPage(WebDriver driver) {
         this.driver = driver;
+
         this.time = new WebDriverWait(driver, Duration.ofSeconds(5));
     }
 
