@@ -30,7 +30,7 @@ public class StepTest {
     @Step("Nested annotated step with global parameter [{this.GLOBAL_PARAMETER}]")
     public void nestedAnnotatedStep() {
         for(int i = 10; i < 100; i++){
-            System.out.print("" + i);
+            System.out.print(i);
         }
     }
 
