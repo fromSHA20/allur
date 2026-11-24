@@ -23,7 +23,7 @@ public class TestBoxTest {
         options.addArguments("--remote-debugging-port=9222");
         options.addArguments("--window-size=1920,1080");
 
-        testBoxPage = new TestBoxPage(new EdgeDriver());
+        testBoxPage = new TestBoxPage(new EdgeDriver(options));
     }
 
     @Test
