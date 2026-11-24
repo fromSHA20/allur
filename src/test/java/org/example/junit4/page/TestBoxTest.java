@@ -22,6 +22,7 @@ public class TestBoxTest {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--remote-debugging-port=9222");
         options.addArguments("--window-size=1920,1080");
+        options.addArguments("--disable-gpu");
 
         testBoxPage = new TestBoxPage(new EdgeDriver(options));
     }
